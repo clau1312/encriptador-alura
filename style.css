@@ -2,14 +2,20 @@ body{
 	margin: 0px;
 	padding: 0px;
 	/*background:#F3F5FC;*/
-	background-image: url(./img/resident.jpg);
+	background-image: url(img/m-nubes.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
 }
 .conteiner{
 	margin: auto;
 	width: 960px;
 	height: 650px;
 	padding: 5px;
-	background-image: url(./img/resident4.jpg);
+	background-image: url(img/nube.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
 	
 }
 .logo{
@@ -114,4 +120,9 @@ body{
 }
 .parrafo{
 	margin-left: 15%;
+}
+@media screen and (max-width: 400px){
+	#btn-encriptar, #btn-desencriptar, #copiar{
+		height: auto;
+	}
 }
